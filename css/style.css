@@ -1,0 +1,161 @@
+/* @font-face {
+	font-family: 'Lato';
+  font-weight: 400;
+  font-style:  normal; 
+  src: local('Lato'),
+	  url(../ВЕРСТКА/шрифты/fonts.css/Lato-Regular.woff) format('woff'); 
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+  font-weight: 700;
+  font-style:  normal; 
+  src: local('Lato'),
+	  url(../ВЕРСТКА/шрифты/fonts.css/Lato-Bold.woff) format('woff'); 
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+  font-weight: 900;
+  font-style:  normal; 
+  src: local('Lato'),
+	  url(../ВЕРСТКА/шрифты/fonts.css/Lato-Black.woff) format('woff') ; 
+    font-display: swap;
+} */
+
+/* ------------- */
+
+.wrapper{
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container{
+  max-width: 1260px;
+  /* было 1230(по фигме ширина), но у нас отступы 15px(по правилу,чтобы не прилипли
+  к границе слева слева и справа=
+  = 1200 получается, значит поставим на 30 больше=1260 */
+  padding: 0 15px;
+  margin: 0 auto;
+  /* расположение по центру */
+}
+
+html, body{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #424551;
+}
+
+.button{
+  letter-spacing: 0.03em;
+  line-height: 325%;
+  font-weight: 700;
+  padding: 0 40px;
+  color: #fff; 
+  border-radius: 4px;
+  background: linear-gradient(45deg, #ff3f3a 0%, #f75e05 100%);
+  white-space: nowrap;
+}
+
+.logo {
+
+}
+
+/* ---------------------------------------------------------------- */
+
+.header {
+  font-weight: 700;
+  color: #424551;
+}
+.header__top {
+  
+}
+
+.header__top-iner {
+  display: flex ;
+  justify-content: space-between;
+  /* полностью по родителю разместились */
+  align-items: center;
+}
+.header__logo {
+margin-right: 60px;
+/* отступ у лого справа от ссылок справа */
+
+}
+
+.header__nav {
+  margin-right: auto;
+
+}
+.header__nav-list {
+  display: flex;
+  /* все что в листе(5 ссылок) стали ровно прямо, не в столбик */
+
+}
+.header__nav-item {
+  margin-right: 40px;
+
+}
+
+.header__nav-item:last-child{
+  margin-right: 0;
+  /* для послед ссылки убрали отступ справа */
+}
+
+.header__nav-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  white-space: nowrap;
+}
+
+.header__btn-box {
+  display: flex;
+  align-items: center;
+}
+
+.header__top-btn {
+  margin-right: 37px;
+}
+
+.button {
+
+}
+
+.header__user-icon{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-right: 10px;
+}
+
+.header__user-nav::before {
+  /* content: '';
+  position: absolute;
+  background: url('../ВЕРСТКА/декорации/icons/UsloGo.svg') no-repeat;
+  width: 17px;
+  height: 18px;
+  display: block; */
+  /* padding-left: 28px; */
+
+  content: "";
+  background: url("..//декорации/icons/usericon.svg") no-repeat;
+  width: 17px;
+  height: 20px;
+  
+}
+
+
+
+.header__user-btn {
+  white-space: nowrap;
+}
+.header__body {
+
+}
+
