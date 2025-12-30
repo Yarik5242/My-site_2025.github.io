@@ -57,7 +57,6 @@
   transition: all 0.3s;
 }
 
-
 .overlay--show{
   visibility: visible;
   opacity: 1;
@@ -75,8 +74,6 @@ body {
   color: #424551;
   /* background-color: #F4F5F6; */
 }
-
-
 
 .button {
   display: inline-block;
@@ -116,20 +113,11 @@ body {
   border-color: #f75e05;
   border-image-slice: 1;
   transition: 0.3s;
-
-
-
 }
 
 .button--empty:hover {
   transform: scale(1.05)
 }
-
-.logo {}
-
-
-.main {}
-
 
 .main__about {
   padding: 180px 0 160px 0;
@@ -138,7 +126,6 @@ body {
 .main__directions {
   padding-bottom: 160px;
 }
-
 
 .main_cert {
   padding-bottom: -45px;
@@ -178,7 +165,7 @@ body {
   flex-direction: column;
 }
 
-.header__top {}
+
 
 .header__top-iner {
   display: flex;
@@ -186,29 +173,24 @@ body {
   /* полностью по родителю разместились */
   align-items: center;
   padding-top: 20px;
-
 }
 
 .header__logo {
   margin-right: 60px;
   /* отступ у лого справа от ссылок справа */
-
 }
 
 .header__nav {
   margin-right: auto;
-
 }
 
 .header__nav-list {
   display: flex;
   /* все что в листе(5 ссылок) стали ровно прямо, не в столбик */
-
 }
 
 .header__nav-item {
   margin-right: 40px;
-
 }
 
 .header__nav-item:last-child {
@@ -227,7 +209,6 @@ body {
 
 .header__nav-link:hover {
   color: #FF3F3A;
-  ;
 }
 
 
@@ -240,31 +221,11 @@ body {
   margin-right: 37px;
 }
 
-
-
 .header__user-icon {
   width: 17px;
   height: 18px;
   margin-right: 10px;
 }
-
-.header__user-nav {
-  /* content: '';
-  position: absolute;
-  background: url('../ВЕРСТКА/декорации/icons/UsloGo.svg') no-repeat;
-  width: 17px;
-  height: 18px;
-  display: block; */
-  /* padding-left: 28px; 
-  через псевдоэлемент не получается добавить фото, я добавил 
-  через ссылку  через src, а не url, так работае, просто коп фото и вставить
-  */
-
-
-}
-
-
-
 
 .header__user-btn {
   white-space: nowrap;
@@ -279,16 +240,12 @@ body {
 
 .header__body {
   flex-grow: 1;
-
 }
-
-
 
 .header__body-inner {
   display: flex;
   flex-direction: column;
   height: 100%;
-
 }
 
 .header__main {
@@ -299,14 +256,10 @@ body {
   align-items: center;
   color: #1E212C;
   margin: auto;
-
 }
-
-
 
 .header__content {
   margin-right: 30px;
-
 }
 
 .header__play {
@@ -315,10 +268,7 @@ body {
   и сделали inline-flex и зона уменьшилась */
   align-items: center;
   margin-bottom: 24px;
-
 }
-
-
 
 .header__play svg {
   margin-right: 16px;
@@ -389,7 +339,6 @@ body {
 .header__bottom-item {
   display: flex;
   align-items: center;
-
 }
 
 a {
@@ -399,26 +348,11 @@ a {
 /* ------------------------------- 2 стр crt alt e*/
 
 .about {
-
   background: url("декорации/icons/bg иконки 2 слайдsvg.svg") no-repeat;
-
   background-position-x: 1750px;
   background-position-y: -10px;
   /* если при уменьшении экрана изображение пропадает - это нормально */
 }
-
-
-/* .about:before{
-  content: "";
-  position: relative;
-  top: 0;
-  right: 0;
-  background: url('декорации/icons/bg иконки 2 слайдsvg.svg') 50% 30% / 100% no-repeat;
-  width: 100px;
-  height: 100%;
-
-} */
-
 
 .about__inner {}
 
@@ -428,30 +362,14 @@ a {
   /* выравнивание элементво по одной линии горизонтальной */
   justify-content: space-between;
   margin-bottom: 180px;
-
   /* задали и убрал( так как надо немного в другом месте и это в ручную
    background img и оно появилось слева, с помощью
   back-position-x по иксу справа его отобразили */
-
-
-
 }
-
-/* .about:before{
-  content: "";
-  position: relative;
-  top: 0;
-  right: 0;
-  background: url('декорации/icons/bg иконки 2 слайдsvg.svg') 50% 30% / 100% no-repeat;
-  width: 100px;
-  height: 100%;
-
-} */
 
 .about__createx-content {
   max-width: 625px;
   margin-right: 30px;
-
 }
 
 .about__heading {
@@ -462,9 +380,6 @@ a {
   margin-bottom: 60px;
   transition: all 0.5s;
 }
-
-.about__text:hover {}
-
 
 .about__par {
   font-weight: 400;
@@ -478,17 +393,6 @@ a {
   font-size: 20px;
   line-height: 150%;
 }
-
-.about__btn-box {}
-
-.about__btn {}
-
-
-
-.about__img {}
-
-.about__values {}
-
 
 /* ------------------- */
 .about__values {
@@ -520,8 +424,6 @@ a {
   line-height: 130%;
   letter-spacing: 0.02em;
   margin-right: 16px;
-
-
 }
 
 .about__number {
@@ -534,12 +436,7 @@ a {
   margin-bottom: 0;
 }
 
-
 /* =--------------------- */
-
-
-
-.directions {}
 
 .directions__inner::before {
   content: '';
@@ -553,7 +450,6 @@ a {
 }
 
 .directions__inner::after {
-
   content: '';
   display: block;
   position: relative;
@@ -565,26 +461,17 @@ a {
   opacity: .2;
 }
 
-.directions__inner {}
-
-
-
 .directions__heading {
   margin-bottom: 90px;
 
   text-align: center;
 }
 
-.directions__body {}
-
 .directions__button-box {
   display: flex;
   margin-bottom: 56px;
   /* white-space: nowrap; */
-
 }
-
-.directions__button-item {}
 
 .directions__button-item:last-child {
   margin-right: 0;
@@ -608,13 +495,12 @@ a {
   color: white;
   border-radius: 4px;
   padding: 2px 9px;
-
-
-
 }
 
 .directions__list {
-   display: grid;
+    display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .directions__list-1 {
@@ -626,16 +512,16 @@ a {
 
 
 .directions__list-2 {
- 
 display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-
 }
 
 .directions__list-item {
   margin-right: 27.5px;
   margin-bottom: 30px;
+   flex: 1 1 calc(33.33% - 30px);
+  box-sizing: border-box;
 
 }
 
@@ -667,13 +553,11 @@ display: grid;
 .directions__image-box {}
 
 .directions__image-box img {
-
   width: 100%;
   height: 100%;
 }
 
 .directions__link-content {
-
   width: 390px;
   padding: 24px;
   border-top: none;
@@ -690,13 +574,7 @@ display: grid;
   border-radius: 4px;
   align-self: flex-start;
   margin-bottom: 20px;
-
 }
-
-/* .directions__link-tag:hover{
-  box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.03), 0 12px 10px -6px rgba(154, 156, 165, 0.04), 0 30px 24px -10px rgba(154, 156, 165, 0.05), 0 80px 80px -20px rgba(154, 156, 165, 0.08);
-} */
-
 
 .directions__link-text {
   width: 342px;
@@ -802,8 +680,6 @@ display: grid;
   opacity: ;
 }
 
-.cert__content {}
-
 .heading__title {
   padding-bottom: 40px;
 }
@@ -870,6 +746,13 @@ display: grid;
 
 }
 
+.swiper-slide{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .team__slider-inner {}
 
 .swiper-slide:hover .team__soc {
@@ -878,23 +761,18 @@ display: grid;
 
 }
 
-
 .team__image-box {
   border-radius: 4px;
   margin-bottom: 16px;
   position: relative;
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
-
 
 .team__image {
   margin-right: 30px;
-
 }
-
-
-
 
 .team__soc {
   display: flex;
@@ -920,9 +798,6 @@ display: grid;
   margin-left: 15px;
 
 }
-
-.team__soc-link {}
-
 
 .team__info {
   text-align: center;
@@ -951,30 +826,6 @@ display: grid;
   bottom: 0;
   right: 0;
 }
-
-/* 
-    .swiper {
-      width: 100%;
-      height: 100%;
-    }
-
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #444;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }  */
-
-
 
 #prev {
   margin-right: 30px;
@@ -1048,64 +899,7 @@ display: grid;
   fill: white;
 }
 
-/*
-#next:hover {
-  
-  box-shadow: 0 0 0 20px red;
-}
-
-#prev{
-  
-  border-radius: 50%;
-  transition: all 0.3s;
-}
-
-#prev:hover {
-  
-  box-shadow: 0 0 0 20px red;
-}
-
-.team__swiper-arrow:hover {
-  
-  box-shadow: 0 0 0 20px red;
-}
-
-
-
-
-#next path{
-  transition: all 0.3s;
-}
-
-#next:hover path{
-  
-}
-
-.team__swiper-arrows path{
-  transition: all 0.3s;
-
-}
-.team__swiper-arrows::before button{
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 48px;
-  height: 48px;
-  background-color: #F52F6E;
-  z-index: -1;
-} 
-
-
-*/
-
-
-
-
-
-
-/* -----------------------------------TESTIMONIALS */
+/*--------------------------------TESTIMONIALS */
 /* -----------------------------------TESTIMONIALS*/
 
 .testimonials {
@@ -1237,12 +1031,7 @@ display: grid;
   /* padding-left: 58px; */
   max-width: 810px;
   margin: 0 auto;
-
-
 }
-
-
-
 
 .test__swiper-arrows {
   display: flex;
@@ -1296,10 +1085,7 @@ display: grid;
   border-radius: 50%;
   z-index: -1;
   transition: all 0.3s;
-
-
 }
-
 
 .test__swiper-arrow:hover::after {
   transform: translate(-50%, -50%) scale(1);
@@ -1309,10 +1095,6 @@ display: grid;
 .mySwiper2 {
   min-height: 420px;
 }
-
-
-
-
 
 .test__swiper-arrow path {
   transition: all 0.3s;
@@ -1391,9 +1173,17 @@ display: grid;
 
 
 .companies__info-box {
-  background-color: #E5E8ED;
+  /* background-color: #E5E8ED;
   display: f;
-  justify-content: space-between;
+  justify-content: space-between; */
+    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  justify-items: center;
+  row-gap: 45px;
+  column-gap: 60px;
+  padding: 60px 0;
+  
 }
 
 .companies__info-slides1 {
@@ -1409,6 +1199,7 @@ display: grid;
 }
 
 .companies__info-slide img {
+  width: 120px;
   transition: all 0.3s;
   filter: grayscale(100%)
 }
@@ -1434,12 +1225,6 @@ programmprogrammprogramm*/
   padding-bottom: 160px;
 }
 
-.programm {}
-
-.block4 {}
-
-
-
 .programm__inner {
   display: flex;
   justify-content: space-between;
@@ -1460,28 +1245,6 @@ programmprogrammprogramm*/
   margin-bottom: 0;
 }
 
-/* .programm__accord-head {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 150%;
-  color: #1E212C;
-  position: relative;
-}
-
-.programm__accord-head span {
-  color: #FF3F3A;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 150%;
-}
-
-.programm__accord-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  color: #424551;
-  margin-top: 16px;
-} */
 
 .programm__image {
   margin-left: 135px;
@@ -1494,12 +1257,6 @@ programmprogrammprogramm*/
   width: 494;
   height: 554px;
 }
-
-.programm__accord-link {
-  
-}
-
-
 
 .accordion {
   border-radius: 8px;
@@ -1516,22 +1273,6 @@ programmprogrammprogramm*/
 .accordion-item:last-child{
   margin-bottom: 0;
 }
-
-
-/* .tab-title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 150%;
-  color: #1E212C;
-  position: relative;
-}
-
-.tab-titler span{
-  color: #FF3F3A;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 150%;
-} */
 
 .accordion-header:hover {
   background-color: #e0e0e0;
@@ -1550,18 +1291,6 @@ programmprogrammprogramm*/
   display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
  .accordion-header::before {
   content: "";
   position: absolute;
@@ -1572,19 +1301,6 @@ programmprogrammprogramm*/
    background-color: #FF3F3A; 
   border-radius: 2px;
 }
-
-/* .accordion-header::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -7%;
-  width: 18px;
-  height: 2px;
-   background-color: #FF3F3A;  
-  border-radius: 2px;
-  transform: rotate(90deg);
-  transition: all 0.3s;
-}  */
 
 .accrodian :checked + .accordion-header::after{
   content: "";
@@ -1632,7 +1348,7 @@ programmprogrammprogramm*/
     width: 19px !important;
     height: 19px !important;
     left: 0;
-    top: 70;
+    top: 0.5em;
     color: #FF3F3A;
     
    }
@@ -1685,11 +1401,16 @@ programmprogrammprogramm*/
 }
 
 .blog__row-flex{
-  display: flex;
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 20px;   
 }
 
 .blog__row {
   display: flex;
+  flex: 1 1 calc(33.33% - 20px);
+  min-width: 280px; /* вместо width */
+  box-sizing: border-box;
 }
 .blog__item {
   transition: all .3s;
@@ -2023,22 +1744,20 @@ color: #1E212C;
 .quest__main {
   margin-bottom: 180px;
 }
-.quest {
-}
 
 .quest__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.quest__image {
+.quest__image img {
+  height: 100%;
+  width: 100%;
+  min-width: 270px;
+  min-height: 290px;
 }
 .quest__content {
   margin-left: 30px;
-}
-.quest__header {
-}
-.quest__heading {
 }
 
 .quest__form {
@@ -2052,8 +1771,7 @@ font-size: 16px;
 line-height: 160%;
 color: #424551;
 }
-.form__name {
-}
+
 .quest__form-label {
    font-weight: 700;
 font-size: 16px;
@@ -2086,7 +1804,9 @@ color: #424551;
   блоком, а не строкой */
   border: 1px solid#D7DADD;
   border-radius: 4px;
-  width: 705px;
+  max-width: 705px;
+  width: 700px;
+  min-width: 320px;
   height: 128px;
   padding: 13px 16px;
  margin-top: 8px;
@@ -2102,7 +1822,7 @@ color: #424551;
   width: 16px;
   height: 16px;
   flex:  0 0 auto;
-  margin-top: 8 px;
+  margin-top: 8px;
   
 }
 
@@ -2116,15 +1836,6 @@ color: #424551;
   margin-top: 15px;
 }
 
-.quest__form-def {
-  
-  
-}
-.quest__form__custom {
- 
-  
- 
-}
 .quest__form-btn {
   max-width: 340px;
   margin-top: 15px;
@@ -2284,9 +1995,6 @@ color: #54565F;
   fill: white;
 }
 
-
-.info__soc-link {
-}
 .footer__top-title {
   color: white;
   font-weight: 700;
@@ -2355,13 +2063,6 @@ transition: all 0.3s;
   fill: white;
 }
 
-.footer__top-form {
-}
-.footer__top-input {
-
-
-/* position: relative; */
-}
 
 
 
@@ -2415,11 +2116,6 @@ background: rgba(255, 255, 255, 0.12);
 
 
 
-
-
-
-
-
 .form__top-text {
   font-weight: 400;
 font-size: 12px;
@@ -2468,6 +2164,156 @@ transition: all 0.3s;
 /* -------------------------- */ /*АДАПТИВ/* /* -------------------------- */
 
 
+@media(max-width: 1400px){
+
+  .header__content .header__title{
+    font-size: 60px;
+  }
+
+  .header__main img{
+    width: 580px;
+    height: 510px;
+  }
+
+
+  /* ----------------About */
+
+  .about__heading .heading__title{
+    font-size: 42px;
+  }
+
+  .directions__heading .heading__title{
+    font-size: 42px;
+  }
+
+  .directions__button-box{
+    display: flex;
+    justify-content: space-between;
+    width: 84.2%;
+  }
+
+  .directions__button{
+    margin-right: 10px;
+  }
+
+  .directions__list-link{
+    width: 85%;
+    
+  }
+
+  .directions__list{
+    width: 85%;
+  }
+
+  .directions__link-text{
+    margin-bottom: 0 ;
+  }
+
+  .directions__link-item--empty {
+    height: 375px;
+    width: 274px;
+  }
+
+  .directions__link-text{
+    width: 280px;
+  }
+
+  .directions__link-content{
+    padding: 10px;
+    width: 320px;
+  }
+
+  .directions__body{
+    
+  }
+
+
+  /* ------------------------------- СЕРТИФИКАТ */
+
+
+
+  .cert__heading .heading__title{
+    font-size: 42px;
+  }
+
+  .cert__image-box{
+    box-shadow: none;
+  }
+
+  /* ----------------------Team */
+
+  .team__heading .heading__title{
+    font-size: 42px;
+  }
+ 
+
+  /* ----------------------------TEst */
+  .test__heading .heading__title{
+    font-size: 42px;
+  }
+  
+  
+  /* ----------------------------Jobs */
+
+  .companies__heading .heading__title{
+    font-size: 42px;
+  }
+
+  /* -----------Blog */
+
+
+  .blog__heading .heading__title{
+    font-size: 42px;
+  }
+  
+}
+
+@media(max-width: 1250px){
+  .blog__row-flex{
+    /* display: flex;
+     flex-wrap: wrap; 
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    */
+    /* display: flex;
+    flex-wrap: wrap;  */
+    min-width: auto;
+  } 
+
+  .blog__inner{
+    
+  }
+
+  .blog__item-content{
+    display: block;
+  }
+
+  .blog__header{
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* flex-direction: column; */
+  }
+  
+  .blog__row{
+    /* min-width: 280px;
+    margin-right: 30px; */
+    flex: 1 1 calc(50% - 20px); /* на планшете 2 карточки в ряд */
+
+  }
+
+  .blog__row:last-child{
+    margin-right: 0;
+  }
+
+  .blog__item-link{
+     margin-right: 0;
+         flex: 1 1 calc(50% - 20px); /* на планшете 2 карточки в ряд */
+
+  }
+}
+
+
 @media (max-width: 1150px) {
 
    /* ------------- HEADER------------ */
@@ -2510,7 +2356,7 @@ transition: all 0.3s;
     display: block;
     width: 30px;
     height: 4px;
-     background-color: #413939;
+    background-color: #413939;
     border-radius: 3px;
   }
 
@@ -2586,7 +2432,9 @@ transition: all 0.3s;
     margin-bottom: 30px;
   }
 
-  
+  .header__content .header__title{
+    font-size: 54px;
+  }
 
 
 
@@ -2617,7 +2465,11 @@ transition: all 0.3s;
 
 
   .about__heading .heading__title{
-    font-size: 42px;
+    font-size: 39px;
+  }
+
+  .about__heading .heading__subtitle{
+    font-size: 15px;
   }
 
   .about__par{
@@ -2634,227 +2486,10 @@ transition: all 0.3s;
   .about__img{
     max-width: 400px;
   }
-
-  
-
-}
-
-
-@media (max-width: 980px){
-
-  /* ------------- HEADER------------ */
-   /* ------------- HEADER------------ */
-    /* ------------- HEADER------------ */
-  .header__img{
-    display: none;
-  }
-
-  .header__bottom{
-    display: none;
-  }
-
-  .header__main-adapt{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .header__content{
-    margin: 0;
-  align-self: start;    
-  }
-
-   /* -------------ABOUT------------ */
-   /* ------------- ABOUT----------- */
-    /* ------------- ABOUT----------- */
-
-
-  .about__img{
-    display: none;
-  }
-
-/* ------------------- */
-
-  .about__values{
-    flex-direction: column;
-  }
-
-  .about__numbers{
-     margin: 0;
-    align-self: start;
-  }
-}
-
-
-@media (max-width: 500px) {
-
-   /* ------------- HEADER------------ */
-   /* ------------- HEADER------------ */
-    /* ------------- HEADER------------ */
-  .header__top{
-    min-width: none;
-    left: 0;
-  }
-
-  .header__nav-link{
-    display: block;
-    padding: 15px;
-  }
-  
-  .header__logo{
-    margin: -10px 0 15px 0;
-  }
-
- /* ------------- HEADER  BODY ------------ */
-   /* ------------- HEADER  BODY ------------ */
-    /* ------------- HEADER  BODY ------------ */
-
-
-  .header__title{
-    max-width: none;
-    font-size: 46px;
-    margin-bottom: 27px;
-  }
-
-  .header__content{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    
-  }
-
-  .header table {
-    width: 100%;
-    
-  }
-
-    .header th{
-     
-      margin-bottom: 20px;
-      width: 100%;
-    }
-
-  .header tr {
-    display: flex;
-    flex-direction: column; /* вертикально */
-    align-items: flex-start;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-
-  /* ------------------------------ */
-
-   .about table {
-    width: 100%;
-    
-  }
-
-    .about th{
-     
-      margin-bottom: 20px;
-      width: 100%;
-    }
-
-  .about tr {
-    display: flex;
-    flex-direction: column; /* вертикально */
-    align-items: flex-start;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-
-  .about__heading .heading__title{
-    font-size: 24px;
-  }
-
-  .about__heading .heading__subtitle{
-    font-size: 15px;
-  }
-
-  .about__par{
-    font-size: 17px;
-    margin-top: -50px;
-  }
-
-  .about__text{
-    margin-bottom: 30px;
-  }
-
-   /* ------------- ABOUT WITH ------------ */
-   /* ------------- ABOUT WITH ------------ */
-    /* ------------- ABOUT WITH ------------ */
-
-
-  .about__number span{
-    font-size: 40px;
-  }
-  .about__number {
-    font-size: 16px;
-  }
-
-  
-  .about__numbers{
-   
-    margin: 0;
-    align-self: start;
-  }
-
-  .about img{
-    margin-bottom: 30px;
-  }
-
-  .about__createx{
-    margin-bottom: 90px;
-  }
-}
-
-
-@media(max-width: 1400px){
-  .directions__button-box{
-    display: flex;
-    justify-content: space-between;
-    width: 84.2%;
-  }
-
-  .directions__button{
-    margin-right: 10px;
-  }
-
-  .directions__list-link{
-    width: 85%;
-    
-  }
-
-  .directions__list{
-    width: 85%;
-  }
-
-  .directions__link-text{
-    margin-bottom: 0 ;
-  }
-
-  .directions__link-item--empty {
-    height: 375px;
-    width: 274px;
-  }
-
-  .directions__link-text{
-    width: 280px;
-  }
-
-  .directions__link-content{
-    padding: 10px;
-    width: 320px;
-  }
-  
-  
 }
 
 
 @media(max-width: 1150px) {
-
-
    .directions__button-box{
     display: flex;
     justify-content: space-between;
@@ -2893,8 +2528,102 @@ transition: all 0.3s;
     width: 320px;
   }
 
-  
+   .directions__heading .heading__title{
+      font-size: 39px;
+    }
 
+     .directions__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+     .cert__heading .heading__title{
+      font-size: 39px;
+    }
+
+     .cert__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+     .test__heading .heading__title{
+      font-size: 39px;
+    }
+
+     .test__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+
+    /* --------------------------------Team */
+
+
+    .team__heading .heading__title{
+      font-size: 39px;
+    }
+
+     .team__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+    .team__heading{
+      padding-top: 10px;
+    }
+
+
+    .team__info-proffesion{
+      font-size: 16px;
+      
+    }
+
+
+    /* ------------------------------Jobs */
+
+    .companies__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+
+    .companies__heading .heading__title{
+      font-size: 39px;
+    }
+
+
+    /* ------------------------Jobs */
+
+
+    .companies__info-box{
+      padding: 30px 0;
+
+      column-gap: 60px;
+    }
+
+
+    /* --------------------COurse */
+
+
+    .programm__heading .heading__title{
+      font-size: 39px;
+    }
+
+    /* -------Blog */
+
+    .blog__heading .heading__title{
+      font-size: 39px;
+    }
+
+
+    /* ---------------- */
+
+    .quest__heading .heading__title{
+      font-size: 39px;
+    }
+
+
+    /* ------------Contact */
+
+
+    .info__heading .heading__title{
+    font-size: 39px
+  }
 }
 
 @media(max-width: 1050px){
@@ -2976,7 +2705,428 @@ display: grid;
   .directions__heading{
     margin-bottom: 15px;
   }
+
+
+
+  /* --------------------------Сертификат */
+  
+
+  .cert__image-box{
+    width: 450px;
+    height: 450px;
+    
+  }
+   .cert__heading .heading__title{
+    font-size: 35px;
+  }
+
+   .cert__heading .heading__subtitle{
+    font-size: 16px;
+  }
+
+  .cert__text{
+    width: 450px;
+  }
+
+  /* -----------------------team */
+
+   .team__swiper-arrows{
+      margin-right: 25px;
+    }
+
+    /* ----------Quest */
+
+
+    .quest__heading .heading__title{
+    font-size: 35px;
+  }
+
+  /* -----------------Contact */
+
+  .info__heading .heading__title{
+    font-size: 39px
+  }
+
+  /* --------Quest */
+
+ .quest__heading .heading__title{
+    font-size: 39px
+  }
+
+
+  /* ----------------Footer */
+
+  .footer__top-text{
+    width: 250px;
+  }
+
+  .footer__top-inner{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer__top-col{
+    flex: 1;
+    
+  
+  }
+
+  .footer__top-col:first-child{
+     flex-basis: 100%;
+    max-width: 100%; 
+     order: -1;
+  }
+
+  .footer__top-text{
+    width: 100%;
+  }
+
+  
 }
+
+
+
+@media(max-width: 1050px){
+
+  .directions__button-box{
+    display: flex;
+    justify-content: space-between;
+    width: 805px;
+    min-width: 804px;
+  }
+
+  .directions__button{
+    margin-right: 10px;
+  }
+
+  .directions__list-link{
+    width: 75%;
+    
+  }
+
+  .directions__list{
+    width: 75%;
+  }
+
+  .directions__link-text{
+    margin-bottom: 0 ;
+  }
+
+  .directions__link-item--empty {
+    height: 357px;
+    width: 241px;
+  }
+
+  .directions__link-text{
+    width: 220px;
+  }
+
+  .directions__link-content{
+    padding: 10px;
+    width: 320px;
+  }
+
+  .directions__list {
+   display: grid;
+}
+
+.directions__list-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+
+
+.directions__list-2 {
+ 
+display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+
+}
+
+.directions__list-item{
+  margin-right: -50px;
+}
+
+.directions__link-btn {
+  padding: 0 11px;
+  color: #1E212C;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  transition: all 1s;
+  margin-bottom: 24px;
+}
+
+
+  .directions__heading{
+    margin-bottom: 15px;
+  }
+
+
+
+  /* --------------------------Сертификат */
+  
+
+  .cert__image-box img {
+    width: 420px;
+    height: 290px;
+    
+  }
+
+  .cert__heading{
+    margin-right: 40px;
+  }
+
+
+   .cert__heading .heading__title{
+    font-size: 35px;
+  }
+
+   .cert__heading .heading__subtitle{
+    font-size: 16px;
+  }
+
+  .cert__text{
+    width: 450px;
+  }
+
+
+
+  /* -----------------------team */
+
+   .team__swiper-arrows{
+      margin-right: 25px;
+    }
+
+
+    /* ----------------- Header */
+
+    .header__content .header__title{
+      font-size: 48px;
+    }
+
+    /* ------------------------Quest */
+
+    .quest__image img{
+      display: none;
+    }
+
+    .quest__heading .heading__title{
+    font-size: 35px;
+  }
+
+  .quest__content{
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 980px){
+
+  /* ------------- HEADER------------ */
+   /* ------------- HEADER------------ */
+    /* ------------- HEADER------------ */
+  .header__img{
+    display: none;
+  }
+
+  .header__bottom{
+    display: none;
+  }
+
+  .header__main-adapt{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header__content{
+    margin: 0;
+  align-self: start;    
+  }
+
+   /* -------------ABOUT------------ */
+   /* ------------- ABOUT----------- */
+    /* ------------- ABOUT----------- */
+
+
+  .about__img{
+    display: none;
+  }
+
+/* ------------------- */
+
+  .about__values{
+    flex-direction: column;
+  }
+
+  .about__numbers{
+     margin: 0;
+    align-self: start;
+  }
+
+  .about__heading .heading__title{
+      font-size: 36px;
+    }
+
+    .about__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+
+  /* ------------------- Dir */
+
+  .directions__heading .heading__title{
+      font-size: 36px;
+    }
+
+    .directions__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+
+    /* ---------Team */
+
+    .team__heading .heading__title{
+      font-size: 36px;
+    }
+
+    .team__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+  /* ---------------------Сертификат */
+
+    .cert__inner{
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .cert__logos{
+    white-space: nowrap;
+    min-width: 105px;
+  }
+
+  .cert__heading .heading__title{
+      font-size: 36px;
+    }
+
+    .cert__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+
+  /* --------------------------Testimonials */
+
+
+  .test__quote{
+    font-size: 18px;
+  }
+
+  .test__heading .heading__title{
+      font-size: 36px;
+    }
+
+    .test__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+
+    /* -------------------Jobs */
+
+
+   .companies__info-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* min-width: 110px;
+    min-height: 50px; */
+   }
+
+   .companies__info-slide img{
+    white-space: nowrap;
+   }
+
+   .companies__heading .heading__title{
+    font-size: 35px;
+   }
+
+   /* -----------------------------Course */
+
+   .programm__heading .heading__title{
+      font-size: 36px;
+    }
+
+    .programm__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+    .programm__image img{
+      display: none;
+    }
+
+
+    /* ------------------------Contact */
+
+    .info__heading .heading__title{
+      font-size: 36px;
+    }
+
+    .info__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+    /* .follow__head{
+      font-size: 17px;
+      font-weight: 700;
+    } */
+
+    .info__inner{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .info__soc-items{
+      margin-bottom: 25px;
+    }
+
+
+    /* ----------------Blog */
+
+    .blog__row-flex{
+    /* min-width: 280px;
+    margin-right: 30px; */
+    flex-direction: column;
+
+  }
+
+  .blog__row:last-child{
+    margin-right: 0;
+  }
+
+  .blog__item-link{
+     margin-right: 0;
+         flex: 1 1 calc(50% - 20px); /* на планшете 2 карточки в ряд */
+
+  }
+
+
+  /* --------------Blog */
+
+
+  .blog__heading .heading__title{
+      font-size: 36px;
+    }
+
+    .blog__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+  } 
 
 @media(max-width: 850px){
    .directions__button-box{
@@ -3011,6 +3161,9 @@ display: grid;
   }
 
   .directions__list{
+    display: grid;
+     /* flex-wrap: wrap; */
+  gap: 30px;
     width: 75%;
     min-width: 70%;
      
@@ -3057,6 +3210,7 @@ display: grid;
 }
 
 .directions__list-item{
+    flex: 1 1 100%;
   margin-right: -50px;
 }
 
@@ -3082,6 +3236,709 @@ display: grid;
 
   .heading__subtitle{
     font-size: 14px;
+  }
+
+
+  /* --------------------------------------------Team */
+
+
+  .team__heading .heading__title{
+      font-size: 36px;
+    }
+
+    .team__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+    .team__swiper-arrows{
+      margin-right: 25px;
+    }
+
+
+   
+
+    /* ----------------------Testimonials */
+    
+    
+
+    .test__swiper-arrow{
+      display: none;
+    }
+
+    .swiper-slide{
+      margin-right: 0;
+    }
+
+    .swiper-wrapper{
+      margin: 0;
+    }
+
+    .test__heading .heading__title{
+      font-size: 35px;
+    }
+
+    .test__heading .heading__subtitle{
+      font-size: 17px;
+    }
+
+    .mySwiper2 {
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+
+  .user__avatar img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .test__quote::before{
+    width: 25px;
+    height: 18px;
+    margin-left: 25px ;
+  }
+
+  .slide2{
+    padding: 45px;
+  }
+
+
+  /* ----------------------------Jobs */
+
+  .companies__info-box{
+     display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+
+  .companies__info-slide{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 20px;          /* расстояние между элементами */
+  justify-content: center; 
+   text-align: center;  /* выравнивание по центру (опционально) */
+  }
+
+  .companies__info-slide img{
+     width: 100px;
+    flex: 1 1 120px;
+  }
+
+   /* -----------------------------Course */
+
+   .programm__heading .heading__title{
+      font-size: 32px;
+    }
+
+    .programm__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+    /* ---------------Course */
+
+     
+
+
+
+    /* -----------------------------------Quest */
+
+    .quest__heading .heading__title{
+      font-size: 32px;
+    }
+
+    .quest_heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+    .quest__form{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    .quest__form-row{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form__btn{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-self: start;
+    }
+
+    .quest__form-btn button{
+      float: left;
+      margin-top: 10px;
+    }
+
+    .checkbox-label{
+      margin-bottom: 30px;
+    }
+
+    .quest__form-btn{
+      float: left;
+      margin: 0;
+    }
+
+    .quest__text{
+      width: 420px;
+    }
+
+    .quest__content{
+      float: left;
+      margin: 0 auto;
+    }
+
+    .quest__form-label{
+      margin-bottom: 10px;
+    }
+
+    .quest__form-input{
+      margin-bottom: 20px;
+    }
+
+    .form__emph{
+      margin-top: -30px;
+      margin-bottom: 0px;
+    }
+
+    .form__btn{
+      margin-top: -10px;
+    }
+
+    .checkbox-input{
+      margin-top: -25 px;
+    }
+
+    /* -----------------Footer */
+
+    .footer__top-col:first-child{
+      margin-bottom: -20px;
+    }
+
+    .footer__top-col:last-child{
+      margin-top: 50px;
+     flex-basis: 100%;
+    max-width: 100%; 
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .form__top-text{
+    max-width: 100%;
+  }
+
+  .footer__top-title{
+    margin-bottom: -10px;
+  }
+
+  .col--3{
+    /* margin-top: 45px; */
+  }
+  
+  
+}
+
+
+
+@media (max-width: 500px) {
+
+   /* ------------- HEADER------------ */
+   /* ------------- HEADER------------ */
+    /* ------------- HEADER------------ */
+  .header__top{
+    min-width: none;
+    left: 0;
+  }
+
+  .header__nav-link{
+    display: block;
+    padding: 15px;
+  }
+  
+  .header__logo{
+    margin: -10px 0 15px 0;
+  }
+
+ /* ------------- HEADER  BODY ------------ */
+   /* ------------- HEADER  BODY ------------ */
+    /* ------------- HEADER  BODY ------------ */
+
+
+  
+
+  .header__content{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .header__content .header__title{
+    font-size: 40px;
+  }
+
+  .header table {
+    width: 100%;
+    
+  }
+
+    .header th{
+     
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+  .header tr {
+    display: flex;
+    flex-direction: column; /* вертикально */
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+  /* ------------------------------ */
+
+   .about table {
+    width: 100%;
+    
+  }
+
+    .about th{
+     
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+  .about tr {
+    display: flex;
+    flex-direction: column; /* вертикально */
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+  .about__heading .heading__title{
+    font-size: 26px;
+  }
+
+  .about__heading .heading__subtitle{
+    font-size: 15px;
+  }
+
+  .about__par{
+    font-size: 17px;
+    margin-top: -50px;
+  }
+
+  .about__text{
+    margin-bottom: 30px;
+  }
+
+   /* ------------- ABOUT WITH ------------ */
+   /* ------------- ABOUT WITH ------------ */
+    /* ------------- ABOUT WITH ------------ */
+
+
+  .about__number span{
+    font-size: 40px;
+  }
+  .about__number {
+    font-size: 16px;
+  }
+
+  
+  .about__numbers{
+   
+    margin: 0;
+    align-self: start;
+  }
+
+  .about img{
+    margin-bottom: 30px;
+  }
+
+  .about__createx{
+    margin-bottom: 90px;
+  }
+
+
+
+  /* -----------------------directions */
+
+
+  .directions__heading{
+    justify-content: start;
+  }
+
+
+  .directions__heading .heading__title{
+    font-size: 26px;
+  }
+
+  .directions__heading .heading__subtitle{
+    font-size: 15px;
+  }
+
+  /* ----------------------------Сертификат */
+
+  .cert__image-box img{
+    width: 270px;
+    height: 200px;
+    
+  }
+
+
+   .cert__heading .heading__title{
+    font-size: 26px;
+  }
+
+   .cert__heading .heading__subtitle{
+    font-size: 15px;
+  }
+
+  .cert__text{
+    max-width: 250px;
+
+  }
+
+  .cert__logos{
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .cert__logos img{
+    min-width: 77px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  /* -----------------team */
+
+
+  .swiper-slide img{
+    width: 70%;
+    height: 70%;
+  }
+
+  .swiper-slide{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  }
+
+  .team__info-name{
+    /* max-width: 70%;
+    max-height: 70%; */
+    text-align: center;
+  }
+
+  .team__info-proffesion{
+    /* max-width: 70%;
+    max-height: 70%; */
+     text-align: center;
+  }
+
+  .team__info{
+    text-align: center;
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  }
+
+  .team__heading {
+    margin-right: 20px;
+  }
+
+  .team__swiper-arrows{
+    position: static;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+
+  
+
+   .team__heading .heading__title{
+    font-size: 26px;
+  }
+
+  .team__heading .heading__subtitle{
+    font-size: 15px;
+  }
+
+  
+
+   
+
+    .user__avatar img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .test__name{
+    font-size: 16px;
+  }
+
+
+  .mySwiper2 {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+  .test__quote{
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .test__quote::before{
+    width: 25px;
+    height: 18px;
+    margin-left: 30px ;
+  }
+
+  .slide2{
+    padding: 35px;
+  }
+
+  .test__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+    .test__heading .heading__title{
+      font-size: 26px;
+    }
+  /* -----------------------------------Jobs */
+
+  .companies__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+
+    .companies__heading .heading__title{
+      font-size: 26px;
+    }
+
+
+    /* -------------Course */
+
+
+    .test__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+    .test__heading .heading__title{
+      font-size: 26px;
+    }
+
+
+    /* ---------------------Course */
+
+    .tab-title{
+      font-size: 17px;
+      padding: 10px 10px 0 15px;
+    }
+
+    .tab-titleLes{
+      font-size: 16px;
+      font-weight: 600;
+    }
+   
+    .tab-title::after{
+      margin-top: 2px;
+    }
+
+
+     .programm__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+    .programm__heading .heading__title{
+      font-size: 26px;
+    }
+
+
+    /* ----------------Contact */
+
+    .info__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+
+    .info__heading .heading__title{
+      font-size: 26px;
+    }
+
+
+    .follow__head{
+      font-size: 16px;
+    }
+
+    .info__soc-items{
+      margin-bottom: 25px;
+    }
+    
+
+    /* -------------------------------Blog */
+
+    .blog__heading .heading__subtitle{
+      font-size: 15px;
+    }
+
+
+    .blog__heading .heading__title{
+      font-size: 26px;
+    }
+
+    .blog__header{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .header__top-btn button{
+      margin-bottom: 20px;
+    }
+
+    .blog__row-flex{
+      margin-top: 40px;
+    }
+
+    .blog__heading{
+      margin-bottom: 15px;
+    }
+    .blog__item-info{
+      flex-wrap: wrap;
+    }
+    .blog__item-content{
+      max-width: 300px;
+    }
+
+    .blog__item-title{
+      max-width: 300px;
+    }
+
+    .blog__image-box img{
+      width: 300px;
+    }
+
+    
+    .blog__item-btn{
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .blog__item-btn::before{
+      margin-left: 20px;
+      padding-left: 20px;
+      display: flex;
+      float: right;
+      top: 1px;
+      right: 212px;
+    }
+
+    /* ----------------------------Quest */
+
+    .quest__heading .heading__title{
+    font-size: 27px;  
+  }
+
+  .quest__heading .heading__subtitle{
+    font-size: 15px;
+  }
+
+    .quest__form-input{
+      width: 300px;
+    }
+
+    .quest__text{
+      width: 320px;
+    }
+
+    .quest__form-label{
+      margin-bottom: 10px;
+    }
+
+    .quest__form-input{
+      margin-bottom: 20px;
+    }
+
+    .form__emph{
+      margin-top: -30px;
+      margin-bottom: 0px;
+    }
+
+    .form__btn{
+      margin-top: -10px;
+    }
+
+
+
+    /* -----------------Footer */
+
+    .footer__top-col:first-child{
+      margin-bottom: -20px;
+    }
+
+    .col--4{
+      margin-top: 50px;
+     flex-basis: 100%;
+    max-width: 100%; 
+    width: 100%;
+    margin-bottom: -10px;
+  }
+
+  
+    .col--3{
+      margin-top: 50px;
+     flex-basis: 100%;
+    max-width: 100%; 
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer__top-inner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__top-col:last-child{
+    margin-bottom: 40px;
+  }
+
+  .form__top-text{
+    max-width: 100%;
+  }
+
+  .footer__top-title{
+    margin-bottom: -15px;
+  }
+
+  .col--3{
+     margin-top: 40px; 
+     margin-bottom: -10px;
+  }
+  
+  .footer__top-title{
+    margin-bottom: 0px;
+  }
+
+  .footer__top-box{
+    margin-top: 14px;
   }
 }
 

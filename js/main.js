@@ -8,7 +8,14 @@ jQuery(function () {
 // НЕ РАБОТАЛ ПОДКЛЮЧЕНИЕ ПОТОМУ ЧТО НЕ ТАК СКАЧАЛ JQURY нужно было crtl+s когда скачиваешь на офф сайте и вставить в проект и этот файл подключать
 
 
-  var mixer = mixitup('.directions__list');
+  // let mixer = mixitup('.directions__list');
+  var mixer;
+
+  window.addEventListener('load', function() {
+    mixer = mixitup('.directions__list');
+  });
+
+  
 
 
   jQuery('.directions__button').on('click', function () {
@@ -50,13 +57,28 @@ jQuery(function () {
        slidesPerView: 4,
        loop: true,
        spaceBetween: 30,
-       centeredSlides: true, 
+       centeredSlides: false, 
    centeredSlidesBounds: true,
        pagination: {
          el: ".swiper-pagination",
          clickable: true,
        },
 
+       breakpoints: {
+    1300: {
+      slidesPerView: 4,
+    },
+    1000: {
+      slidesPerView: 2,
+    },
+    650: {
+      slidesPerView: 2,
+    },
+     300: {
+      slidesPerView: 1,
+    },
+    
+  }
 
      });
 
