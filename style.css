@@ -44,7 +44,7 @@
   height: 100%;
 }
 
-.overlay{
+/* .overlay{
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,.35);
@@ -58,7 +58,7 @@
 .overlay--show{
   opacity: 1;
   visibility: visible;
-}
+} */
 
 .burger{
   display: none;
