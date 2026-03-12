@@ -46,20 +46,18 @@
 
 .overlay{
   position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 50;
-  background-color: rgb(111, 113, 120, 0.34);
-  visibility: hidden;
+  inset: 0;
+  background: rgba(0,0,0,.35);
+
   opacity: 0;
-  transition: all 0.3s;
+  visibility: hidden;
+
+  transition: .3s;
 }
 
 .overlay--show{
-  visibility: visible;
   opacity: 1;
+  visibility: visible;
 }
 
 .burger{
@@ -2490,11 +2488,10 @@ transition: all 0.3s;
   .about__img{
     max-width: 400px;
   }
-}
 
 
-@media(max-width: 1150px) {
-   .directions__button-box{
+  /* ---------dir */
+  .directions__button-box{
     display: flex;
     justify-content: space-between;
     width: 1000px;
@@ -2629,6 +2626,13 @@ transition: all 0.3s;
     font-size: 39px
   }
 }
+
+
+
+
+
+
+
 
 @media(max-width: 1050px){
 
@@ -2785,12 +2789,8 @@ display: grid;
     width: 100%;
   }
 
-  
-}
 
-
-
-@media(max-width: 1050px){
+/* -------dir */
 
   .directions__button-box{
     display: flex;
@@ -3160,14 +3160,12 @@ display: grid;
   .directions__list-link{
     width: 75%;
     min-width: 70%;
-    
-    
   }
 
   .directions__list{
     display: grid;
      /* flex-wrap: wrap; */
-  gap: 30px;
+    gap: 30px;
     width: 75%;
     min-width: 70%;
      
@@ -3208,7 +3206,7 @@ display: grid;
 
 
 .directions__list-2 {
-display: grid;
+  display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 4px;
   
@@ -3417,7 +3415,7 @@ display: grid;
     }
 
     .checkbox-input{
-      margin-top: -25 px;
+      margin-top: -25px;
     }
 
     /* -----------------Footer */

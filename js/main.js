@@ -158,13 +158,21 @@ jQuery(function () {
 
 
  // ЭТО ПРИ НАЖАТИИ ВЫЛАЗИТ БУРГЕР МЕНЮ. ПРИ НАЖАТИИ ПОЯВЕЛСЯТ HEADER__TOP--OPEN
-  $('.burger, .overlay').on('click', function(e){
-    e.preventDefault()
+  $('.burger, .overlay').on('click', function(){
     $('.header__top').toggleClass('header__top--open'),
     $('.overlay').toggleClass('overlay--show')
-  })
+    // $('.overlay').removeClass('overlay--show')
+  });
 // и так же сделали для оверлея, просто добавили его к бургеру в начале, и при нажатии оверлай пропадает
+  $('.overlay').on('click', function(){
+
+  $('.header__top').removeClass('header__top--open');
+  $('.overlay').removeClass('overlay--show');
+
+  });  
+
   
+
 
   // $(window).on('scroll', function () {
   //   if ($(window).scrollTop() > 0) {
